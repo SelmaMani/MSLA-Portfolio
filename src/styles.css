@@ -123,3 +123,19 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* add slide in animation */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

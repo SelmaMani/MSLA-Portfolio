@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/projects.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,27 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "ENSIA Tech Community Website 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Led front-end and back-end development for the club website. Directed team, managed timelines, and ensured seamless functionality.",
+    url: "https://etc-club.vercel.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Nursery Management System - SafeCorner 🌱 -",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Led a 6-member team to develop a Nursery Management System within a 14-week timeframe under instructor guidance.",
+    url: "",
   },
   {
-    title: "My Resume Site",
+    title: "English Learning Assistant 📚 - Englify - ",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Led a team in winning first place after 40 hours of intensive coding, employing fine-tuning techniques to train a GPT model tailored to enhance English learning in Algerian contexts. ",
+    url: "",
   },
   {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    title: "Note App 📝 - Notiverse -",
+    description: "Actively involved in app development using Flutter, Riverpod and ObjectBox to create a note-taking app. ",
+    url: "",
   },
 ];
 
@@ -64,7 +63,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideIn" }}
             alt={imageAltText}
           />
         </div>

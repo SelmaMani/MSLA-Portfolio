@@ -16,15 +16,15 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/ai-bg.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "a beautiful ai background";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm an enthusiastic web app developer with expertise in using different technologies and frameworks, and strong database management skills. I also excel in UI/UX design and have a successful track record of leading and managing projects. My strengths lie in effective softskills like  time management, and networking, making me a valuable addition to any development team.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -33,10 +33,10 @@ const description =
 const skillsList = [
   "Web design",
   "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "User interface",
+  "Front-end development",
+  "Back-end development",
+  "Database management",
 ];
 
 /**
